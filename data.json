@@ -1,0 +1,1794 @@
+{
+    "data": {
+        "allLandingPages": [
+            {
+                "contentType": "landing_page",
+                "body": [
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "top_banner_slide",
+                                "style": "",
+                                "bannerSlides": [
+                                    {
+                                        "id": "fO-JHpmJQxeUI4WN5aOYLQ",
+                                        "button": [
+                                            {
+                                                "buttonStyle": "",
+                                                "buttonText": "Click Here To Support",
+                                                "buttonType": "",
+                                                "id": "Tb2TuqBIQKipYfcPggIqvA",
+                                                "linkUrl": "",
+                                                "openInNewTab": false
+                                            }
+                                        ],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703672985-free-temple-banner.jpg"
+                                        },
+                                        "icon": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747498-play-icon.svg"
+                                        },
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "Show your support to\n#FreeTNTemples"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "Free Tamil Nadu's Temples",
+                                        "videoUrl": "https://www.youtube.com/embed/DBPfKpZfTfs"
+                                    }
+                                ]
+                            }
+                        ],
+                        "sectionId": "top-banner",
+                        "styleConfig": null
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "structured_text",
+                                "fieldId": "",
+                                "style": "",
+                                "body": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "Tamil Nadu's temples, the soul of Tamil culture and the core of Tamil spiritual ethos, are being suffocated to death. A vicious policy of seizing control over temples to take over their land and revenue was begun by the East India Company, 200 years ago.\n\nUnfortunately, the same policy of government control over temples continues today, 74 years after Independence.\n\nPowerfully consecrated temples are losing their vibrance and crumbling, causing enormous pain to crores of devotees and communities."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_modelApiKey": "media_embed",
+                                "image": {
+                                    "alt": null,
+                                    "url": "https://www.datocms-assets.com/109266/1703675275-freetnt_sddefault.jpeg",
+                                    "title": null
+                                },
+                                "style": "",
+                                "mobileImage": null,
+                                "source": "youtube"
+                            }
+                        ],
+                        "sectionId": "paragraph-section",
+                        "styleConfig": {
+                            "backgroundCss": "",
+                            "backgroundColor": "",
+                            "darkBackground": false,
+                            "id": "NXPJLkSCRieN07NGhhHfeA",
+                            "imageRepeatType": "",
+                            "_modelApiKey": "background_style_for_section",
+                            "angledSection": false
+                        }
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "",
+                                "titleText": "Dire State of Tamil Temples"
+                            },
+                            {
+                                "_modelApiKey": "card_column_group",
+                                "card": [
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "stolen in 25 years"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "1200",
+                                        "shortText": "Sacred ancient idols",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703676321-freetnt_natraj.png"
+                                        },
+                                        "linkUrl": ""
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "with no Pooja conducted at all\n"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "11,999",
+                                        "shortText": "temples dying",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703743568-11-999_3-1.png"
+                                        },
+                                        "linkUrl": ""
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "to handle all activities-pooja, maintenance, security etc."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "37,000",
+                                        "shortText": "temples have just one person",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703743577-37000_2-2.png"
+                                        },
+                                        "linkUrl": ""
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "to survive with less than Rs. 10,000 income a year"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "34,000",
+                                        "shortText": "temples struggling",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703743573-34000_5-1.png"
+                                        },
+                                        "linkUrl": ""
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "still continues 74 years after Independence"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "East India Company’s",
+                                        "shortText": "policy of grabbing temples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703743582-east_india-1.png"
+                                        },
+                                        "linkUrl": ""
+                                    }
+                                ],
+                                "style": ""
+                            }
+                        ],
+                        "sectionId": "dire-state-of-tamil-temples",
+                        "styleConfig": {
+                            "backgroundCss": "",
+                            "backgroundColor": "",
+                            "darkBackground": false,
+                            "id": "WVpmIwLaSPO1bW3330GODg",
+                            "imageRepeatType": "",
+                            "_modelApiKey": "background_style_for_section",
+                            "angledSection": false
+                        }
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "Incredibly, it is not just small, unknown temples that are in decay. Large, popular temples visited by lakhs of devotees every month are targets of theft and victims of neglect.",
+                                "titleText": "Heartbreaking Stories of Temple Decay"
+                            },
+                            {
+                                "_modelApiKey": "simple_card",
+                                "style": "",
+                                "title": "",
+                                "cards": [
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Kapaleeshwarar Temple",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "A sacred idol representing goddess Parvati was stolen and replaced with a fake. HR&CE department told the court that verification documents were destroyed. Fourteen years after the theft, a senior HR&CE official was arrested for the theft."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703744499-freetnt-ekambareswarar-4.jpeg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703744768-ekambareswarar-4-1.jpg"
+                                        }
+                                    },
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Kanchi Ekambareswarar",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "8.7 kg of gold was stolen from the consecrated idol of Somaskanda. A senior HR&CE official was arrested for the theft."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703744892-kanchi-ekambareswarar-1-1.jpg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703744898-kanchi-ekambareswarar-1.jpg"
+                                        }
+                                    },
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Madurai Meenakshi",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "A 400-year-old mandapam was burnt down in a fire caused by negligence. Prior to the fire, the mandapam was already in bad shape. 15 of the 46 pillars had cracks and the stone ceiling had caved in in some places.\n\nThis is not the only mandapam that has suffered in the temple. A UNESCO team found that the south and east corridors had been demolished and reconstructed. This “is against the principles of Agama sastras where it is clearly recommended that the old stone material needs to be used and reused until it has lived its life,” said the report."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703744968-madurai-meenakshi-1-1.jpg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703744973-madurai-meenakshi-1.jpg"
+                                        }
+                                    },
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Rameswaram Ramanathaswamy Temple",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "The temple’s jewellery was not checked and audited for four decades. It was only after the Madras High Court ordered an annual inspection of the jewels of major temples and maintenance of jewellery registers, that the temple’s jewellery was appraised.\n\nIt was found that the temple’s jewellery had lost weight in gold and silver worth 1.4 million rupees. The temple’s Executive Officer stated that this reduction in weight was due to the normal process of “wear and tear”. When the Madras High Court expressed their surprise that no appraisal of jewellery had been conducted in four decades, they were told that the post of Appraiser had been lying vacant since then."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703745098-rameswaram-ramanathaswamy-temple-1-1.jpg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745105-rameswaram-ramanathaswamy-temple-1.jpg"
+                                        }
+                                    },
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Adikesava Perumal Temple",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "One of the 108 Divya Desams mentioned in the works of the Azhwars, this Vishnu temple is famous for its sculpture and a mandapam made entirely out of a single stone. A diamond crown, gold ornaments and other jewellery were stolen from the temple a few years ago. Moreover, in the 1990s, two stone pillars were stolen and carried off to Chennai. It was only 25 years later, in 2020, that a case was even registered for the theft!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703745254-adikesava-perumal-temple-4-1.jpg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745260-adikesava-perumal-temple-4-2.jpg"
+                                        }
+                                    },
+                                    {
+                                        "ctaLabel": "Read more >",
+                                        "targetUrl": "",
+                                        "title": "Tholur Shiva Temple",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "This 800-year-old temple, built by the Kongu Cholas where villagers were still conducting rituals and worship, was completely demolished. The temple was already in a bad condition, and according to HR&CE officials, they recommended that it be systematically dismantled, renovated and put back together. However, it was found after a few days that the entire temple had been bull dozed!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "image": {
+                                            "url": "https://www.datocms-assets.com/109266/1703745360-tholur-shiva-temple-1-1.jpg",
+                                            "alt": null,
+                                            "title": null
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745366-tholur-shiva-temple-1.jpg"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "sectionId": "stories-section",
+                        "styleConfig": null
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "",
+                                "titleText": "Sadhguru on #FreeTNTemples"
+                            },
+                            {
+                                "_modelApiKey": "card_column_group",
+                                "card": [
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-1",
+                                        "shortText": "Secular Governments Should Not Control Temples #FreeTNTemples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745522-freetnt-sddefault.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/zQTJNV11RmA"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-2",
+                                        "shortText": "Government Can Manage Museums, Not Temples | Sadhguru #FreeTNTemples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745684-freetnt-sddefault02.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/cqSx86VTLYY"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-3",
+                                        "shortText": "Thousands of Temples Are Dying. Time to Free Tamil Nadu Temples | #FreeTNTemples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745766-freetnt-sddefault03.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/mhvxEdOCujo"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-4",
+                                        "shortText": "Free Hindu Temples From Govt Control",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745804-freetnt-sddefault04.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/lua5F0T3m70"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-5",
+                                        "shortText": "TN Temples Are Dying - Devotees Express Pain & Anguish",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703675275-freetnt_sddefault.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/KHkxs7Cnwp4"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-6",
+                                        "shortText": "Is Tamil Culture Being Wiped Out?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745928-freetnt-sddefault06.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/hKeFnbG6n7Q"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-7",
+                                        "shortText": "Should Non-brahmins Conduct Temple Rituals?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746043-freetnt-sddefault07.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/rkv06rW_R1k"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-8",
+                                        "shortText": "Don't Miss Sadhguru On Twitter Today!",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746068-freetnt-sddefault08.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/nDVa-xXgi8A"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-9",
+                                        "shortText": "How Do Different Deities Function Differently?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746120-freetnt-sddefault09.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/4XrnWjdMMFs"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-10",
+                                        "shortText": "Nenju Porukkalaye | The Unbearable Pain... #FreeTNTemples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746165-freetnt-sddefault10.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/Xq_VOIDREWg"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-11",
+                                        "shortText": "Why Do Politicians Visit Temples Before Elections? | Sadhguru Answers",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746356-freetnt-sddefault11.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/Z8z8QH-kJCI"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-12",
+                                        "shortText": "Who Should Manage Indian Temples?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746394-freetnt-sddefault12.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/2ea6oDIax7U"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-13",
+                                        "shortText": "Why Sadhguru Started #FreeTNTemples Just Before Elections?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746425-freetnt-sddefault13.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/qwkkUS0RTYM"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-14",
+                                        "shortText": "12,000 Died Fighting Invaders to Save This Temple | Sadhguru",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746512-freetnt-sddefault14.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/vk0831ItM7w"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-15",
+                                        "shortText": "Did Ram, Laxman and Sita Rest Here?",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746545-freetnt-sddefault15.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/B_vx-bgUxOI"
+                                    },
+                                    {
+                                        "button": [],
+                                        "colorBoxVariant": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "mobileImage": null,
+                                        "title": "Card-16",
+                                        "shortText": "#PeopleHaveSpoken to Free Tamil Temples",
+                                        "tags": "",
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746585-freetnt-sddefault16.jpeg"
+                                        },
+                                        "linkUrl": "https://www.youtube.com/embed/B_Hs5PjiQ2E"
+                                    }
+                                ],
+                                "style": ""
+                            }
+                        ],
+                        "sectionId": "sadhguru-on-free-tn-temples",
+                        "styleConfig": null
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "",
+                                "titleText": "An Appeal to Tamil Nadu's Political Leaders"
+                            },
+                            {
+                                "_modelApiKey": "media_list",
+                                "description": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "fileList": [
+                                    {
+                                        "linkUrl": "https://www.datocms-assets.com/109266/1703745824-thiru_edapaddi_palaniswami_avargale_april_2_2021.pdf",
+                                        "fileTitle": "An Appeal to Shri Edappadi K Palaniswami",
+                                        "file": null,
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745813-letter1_1.jpg"
+                                        }
+                                    },
+                                    {
+                                        "linkUrl": "https://www.datocms-assets.com/109266/1703745827-thiru_stalin_avargale_april_2_2021.pdf",
+                                        "fileTitle": "An Appeal to Shri M K Stalin",
+                                        "file": null,
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703745819-letter2_1.jpg"
+                                        }
+                                    }
+                                ],
+                                "imageList": [],
+                                "title": "",
+                                "videoList": []
+                            }
+                        ],
+                        "sectionId": "appeal-section",
+                        "styleConfig": null
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "",
+                                "titleText": "HR&CE Act: Colonial Origins & History"
+                            },
+                            {
+                                "_modelApiKey": "timeline_description_group",
+                                "timelines": [
+                                    {
+                                        "circleTitle": "",
+                                        "id": "NfANpC7gRyS5kn1ayZZxIQ",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "East India Company introduces The Madras Regulation VII to bring temples under company control, targeting lands and wealth donated by devotees."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746342-1817.png"
+                                        }
+                                    },
+                                    {
+                                        "circleTitle": "",
+                                        "id": "RYaBWWsbQ7WsvV1J-_DvVw",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "The Madras Religious and Charitable Endowments Act is introduced to bring all religious institutions under government control. The act draws massive protests from Muslims and Christians."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746347-1925.png"
+                                        }
+                                    },
+                                    {
+                                        "circleTitle": "",
+                                        "id": "cSQRSVJTSKeY_Osb414l-g",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "The act is redrafted as Madras Hindu Religious and Endowments Act, and made applicable only to Hindu places of worship."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746352-1927.png"
+                                        }
+                                    },
+                                    {
+                                        "circleTitle": "",
+                                        "id": "ZQJab9FkSoqqzlSpGCA1Sw",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "Govt. Control Continues in Independent India"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746356-1947.png"
+                                        }
+                                    },
+                                    {
+                                        "circleTitle": "",
+                                        "id": "KwtV6XtQQLyUqk3B8hWHSg",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "The state government takes control of temples and their funds by the Hindu Religious and Charitable Endowments Act. Many provisions of the act are struck down by the High Court & Supreme Court as unacceptable."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746360-1951.png"
+                                        }
+                                    },
+                                    {
+                                        "circleTitle": "",
+                                        "id": "O1wGrZdVQQCn7GEaUNfCYA",
+                                        "title": "",
+                                        "description": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": "Scant attention is paid to the courts’ objections and the Tamil Nadu Hindu Religious and Charitable Endowments Act is passed."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746366-1959.png"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_modelApiKey": "structured_text",
+                                "fieldId": "",
+                                "style": "",
+                                "body": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "marks": [
+                                                                "emphasis"
+                                                            ],
+                                                            "value": "Today, over 38,000 temples, mutts and similar organizations are under the control of the Tamil Nadu Hindu Religious and Charitable Endowments Department."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "sectionId": "origins-history-section",
+                        "styleConfig": null
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "Temples are not just for worship. They connect us across thousands of years to ancient Tamil culture & tradition.",
+                                "titleText": "Our Glorious Tamil Temples & Culture"
+                            },
+                            {
+                                "_modelApiKey": "top_banner_slide",
+                                "style": "slider",
+                                "bannerSlides": [
+                                    {
+                                        "id": "O4e8oIp8SD28f41WSoKXIg",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746863-freetnt-d-glorious-temples-1.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-1",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "DKbBBObvTDq_jcTbgdsTuw",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746886-freetnt-d-glorious-temples-2.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-2",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "dQ85h2WHQTGo74ypd9mJrA",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746940-freetnt-d-glorious-temples-3.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-3",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "cCAa_oWPRmyw9ug4oabXeA",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746965-freetnt-d-glorious-temples-4.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-4",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "eAhNHzc4Qy2uYTZ3rq__yA",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703746983-freetnt-d-glorious-temples-5.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-5",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "TDHxuPHNQKuuHtCZLw53pQ",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747005-freetnt-d-glorious-temples-6.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-6",
+                                        "videoUrl": ""
+                                    },
+                                    {
+                                        "id": "CJt-AYu2RAaEPPNLcWgcxg",
+                                        "button": [],
+                                        "image": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747025-freetnt-d-glorious-temples-7.jpeg"
+                                        },
+                                        "icon": null,
+                                        "imageMobile": null,
+                                        "subtext": {
+                                            "value": {
+                                                "schema": "dast",
+                                                "document": {
+                                                    "type": "root",
+                                                    "children": [
+                                                        {
+                                                            "type": "paragraph",
+                                                            "children": [
+                                                                {
+                                                                    "type": "span",
+                                                                    "value": ""
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "title": "img-7",
+                                        "videoUrl": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "sectionId": "our-glorious-tamil-temples",
+                        "styleConfig": {
+                            "backgroundCss": "",
+                            "backgroundColor": "",
+                            "darkBackground": false,
+                            "id": "DQBsJ7-wQIiceEOfwpbMsw",
+                            "imageRepeatType": "",
+                            "_modelApiKey": "background_style_for_section",
+                            "angledSection": false
+                        }
+                    },
+                    {
+                        "_modelApiKey": "page_section",
+                        "sectionContent": [
+                            {
+                                "_modelApiKey": "section_title",
+                                "style": "",
+                                "titleColor": "",
+                                "titleDecoration": "",
+                                "titleSubtext": "",
+                                "titleText": "#FreeTNTemples"
+                            },
+                            {
+                                "_modelApiKey": "simple_button",
+                                "linkUrl": "",
+                                "buttonType": "",
+                                "buttonText": "Click Here to support",
+                                "buttonStyle": "primary button",
+                                "openInNewTab": false
+                            },
+                            {
+                                "_modelApiKey": "structured_text",
+                                "fieldId": "",
+                                "style": "",
+                                "body": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "OR"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "Show your support with a "
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "missed call"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_modelApiKey": "structured_text",
+                                "fieldId": "phone-number",
+                                "style": "",
+                                "body": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "83000 83000\n"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_modelApiKey": "structured_text",
+                                "fieldId": "family-friends",
+                                "style": "",
+                                "body": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": "Tell your family & friends to show their support with a missed call"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_modelApiKey": "media_list",
+                                "description": {
+                                    "value": {
+                                        "schema": "dast",
+                                        "document": {
+                                            "type": "root",
+                                            "children": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "children": [
+                                                        {
+                                                            "type": "span",
+                                                            "value": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "fileList": [],
+                                "imageList": [
+                                    {
+                                        "linkUrl": "https://api.whatsapp.com/send?text=Thousands%20of%20temples%20being%20ruined%20in%20Tamil%20Nadu%20by%20govt%20administrators!%20Makes%20no%20sense%20for%20govt%20to%20control%20temples.%20Temples%20should%20be%20in%20devotees%27%20hands%2C%20not%20bureaucrats.%20I%20support%20%23FreeTNTemples.%20Please%20show%20your%20support%20with%20a%20missed%20call%20to%208300083000.Find%20more%20details%20at%20freetntemples.org%20https%3A%2F%2Fisha.sadhguru.org%2Fen%2Ffree-tamilnadu-temples",
+                                        "title": "whatsapp",
+                                        "image": [],
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747225-whatsapp.png"
+                                        }
+                                    },
+                                    {
+                                        "linkUrl": "https://twitter.com/intent/tweet/?text=Thousands%20of%20temples%20being%20ruined%20in%20Tamil%20Nadu%20by%20govt%20administrators!%20Makes%20no%20sense%20for%20govt%20to%20control%20temples.%20Temples%20should%20be%20in%20devotees%27%20hands%2C%20not%20bureaucrats.%20I%20support%20%23FreeTNTemples.%20Please%20show%20your%20support%20with%20a%20missed%20call%20to%208300083000.Find%20more%20details%20at%20freetntemples.org&url=https%3A%2F%2Fisha.sadhguru.org%2Fen%2Ffree-tamilnadu-temples&&",
+                                        "title": "twitter",
+                                        "image": [],
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747220-twiter.png"
+                                        }
+                                    },
+                                    {
+                                        "linkUrl": "https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fisha.sadhguru.org%252Fen%252Ffree-tamilnadu-temples%26&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB",
+                                        "title": "facebook",
+                                        "image": [],
+                                        "thumbnail": {
+                                            "alt": null,
+                                            "title": null,
+                                            "url": "https://www.datocms-assets.com/109266/1703747216-fb.png"
+                                        }
+                                    }
+                                ],
+                                "title": "",
+                                "videoList": []
+                            }
+                        ],
+                        "sectionId": "free-tn-temples-sticky-card",
+                        "styleConfig": null
+                    }
+                ]
+            }
+        ]
+    }
+}
