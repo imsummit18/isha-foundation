@@ -53,10 +53,8 @@ export default function Home() {
 
   return (
     <>
-      <div >
         <Navbar />
         <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
-        <div className='relative'>
           <Description data={data?.body[1]} />
           <DyingTemples data={data?.body[2]} />
           <FreeTemple />
@@ -68,8 +66,6 @@ export default function Home() {
           <Media />
           <Footer />
 
-        </div>
-      </div>
     </>
   )
 }
