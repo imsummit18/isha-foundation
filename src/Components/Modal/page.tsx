@@ -27,7 +27,7 @@ const Modal: React.FC<IProps> = ({ data, onClick, className, isVideo }) => {
 
             {
                 !isVideo ?
-                    <div className={`fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2   rounded-xl mx-3  h-[250px] w-[400px] ${className} `}>
+                    <div className={`fixed top-1/2  left-0 sm:left-1/2 transform sm:translate-x-1/2 -translate-y-1/2   rounded-xl sm:mx-3  h-[250px] sm:h-screen w-full sm:w-[400px] ${className} `}>
                         <Image className=" rounded-xl rounded-b-none" src={data?.image?.url} alt='Image' height={100} width={120} layout='responsive' />
                         <div className='p-4'>
                             <h2 className='text-4xl font-semibold my-3'>{data?.title}</h2>

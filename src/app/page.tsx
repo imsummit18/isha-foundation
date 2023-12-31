@@ -58,9 +58,9 @@ export default function Home() {
         <Glory data={data?.body[7]} />
         <Media />
         <Footer />
-        <div className='fixed right-0   bottom-0'>
+        {/* <div className='fixed right-0   bottom-0'>
           <Card data={data?.body[8]} />
-        </div>
+        </div> */}
       </div>
     </>
   )

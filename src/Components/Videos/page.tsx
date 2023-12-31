@@ -17,16 +17,16 @@ const VideosSadhGuru: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[120px] py-20' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}  >
-            <div className='w-[60%]'>
-                <p className='text-center font-bold text-4xl'>{data?.sectionContent[0]?.titleText}</p>
-                <div className=' flex flex-wrap '>
+        <div className='max-w-[1440px] w-full m-auto px-[20px] py-10 sm:px-[120px] sm:py-20' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}  >
+            <div className='w-full sm:w-[60%]'>
+                <p className='text-center font-bold  text-3xl sm:text-4xl'>{data?.sectionContent[0]?.titleText}</p>
+                <div className=' flex flex-wrap  '>
                     {
                         data?.sectionContent[1].card.slice(0, itemsToShow).map((el: any, index: any) => {
                             return (
-                                <div key={index} className=' bg-[white]  rounded-xl flex  flex-col w-[40%]  my-5 mt-10 last:mb-0  justify-between mr-14 h-fit' >
-                                    <div className='relative'>
-                                        <Image src={el?.thumbnail.url} alt='' width={300} height={250} className='rounded-b-none' />
+                                <div key={index} className=' bg-[white]  rounded-xl flex   flex-col w-screen  sm:w-[40%]  sm:my-5 mt-10 last:mb-0  justify-between sm:justify-between sm:mr-14 h-fit' >
+                                    <div className='relative '>
+                                        <Image src={el?.thumbnail.url} alt='' width={300} height={250} className='rounded-b-none w-full' />
                                         <div className='absolute top-[40%] left-[35%] cursor-pointer' onClick={handleShowModal}>
                                             <ImPlay2 size={50} color="white" style={{ fontWeight: "bold" }} />
                                         </div>
@@ -59,7 +59,7 @@ const VideosSadhGuru: React.FC<IProps> = ({ data }) => {
                 </div>
                 <div className='mt-4'>
                     <p className='text-center font-semibold text-lg'>{Math.min(itemsToShow, data?.sectionContent[1].card.length)}/{data?.sectionContent[1].card.length}</p>
-                    <button onClick={handleLoadMore} className='bg-[#69310F] mt-5 w-fit  ml-[40%] text-[white] rounded-[5px] px-8 py-2  font-semibold'>Load More</button>
+                    <button onClick={handleLoadMore} className='bg-[#69310F] mt-5 w-fit  ml-[30%] sm:ml-[40%] text-[white] rounded-[5px] px-8 py-2  font-semibold'>Load More</button>
 
                 </div>
             </div>
