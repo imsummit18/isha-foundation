@@ -9,7 +9,7 @@ interface IProps {
 const Appeal: React.FC<IProps> = ({ data }) => {
 
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[120px] py-20 bg-[#69310F] text-[white]'>
+        <div className='max-w-[1440px] w-full m-auto px-[120px] py-20 bg-[#69310F] text-[white]' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
             <div className='w-[60%]'>
                 <p className='text-center text-4xl font-semibold'>
                     {data?.sectionContent[0]?.titleText}

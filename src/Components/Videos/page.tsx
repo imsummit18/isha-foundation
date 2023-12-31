@@ -17,7 +17,7 @@ const VideosSadhGuru: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[120px] py-20 bg-[#eeeeee]'  >
+        <div className='max-w-[1440px] w-full m-auto px-[120px] py-20' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}  >
             <div className='w-[60%]'>
                 <p className='text-center font-bold text-4xl'>{data?.sectionContent[0]?.titleText}</p>
                 <div className=' flex flex-wrap '>

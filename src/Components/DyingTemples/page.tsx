@@ -11,7 +11,7 @@ const DyingTemples: React.FC<IProps> = ({ data }) => {
     const card = data.sectionContent[1].card
 
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[120px] bg-[#69310F] ' >
+        <div className='max-w-[1440px] w-full m-auto px-[120px] ' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
             <div className='text-[white] py-20 w-[60%]'>
                 <p className='text-4xl font-semibold ml-[180px]'>{title}</p>
                 <div>

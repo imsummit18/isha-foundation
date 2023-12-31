@@ -10,7 +10,7 @@ const isUnique = (arr: any[], index: number, value: any) =>
 
 const TimelineItem = ({ el, index, timelines }: { el: any, index: number, timelines: any[] }) => (
     <div className='flex items-center gap-6 mb-12  relative'>
-        <Image src={el?.thumbnail?.url} alt="Image" height={106} width={106} className='z-[10]' />
+        <Image src={el?.thumbnail?.url} alt="Image" height={106} width={106} className='z-[3]' />
         <p key={index} className={isUnique(timelines, index, el?.description?.value?.document?.children[0]?.children[0]?.value) ? "font-bold text-lg" : "text-lg"}>
             {el?.description?.value?.document?.children[0]?.children[0]?.value}
         </p>

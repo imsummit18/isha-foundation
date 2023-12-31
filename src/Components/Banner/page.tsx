@@ -3,33 +3,14 @@ import axios from 'axios';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import Modal from '../Modal/page';
+
 interface IProps {
     data?: any
 }
 
-// const fetchBannerData = async () => {
-//     try {
-//         const response = await axios.get('http://localhost:3001/data')
-//         return response.data.allLandingPages[0].body[0].sectionContent[0].bannerSlides
-//     } catch (err: any) {
-//         console.log("Error while fetching banner data", err);
-//         throw new Error("Error while fetching banner data", err)
-//     }
-// }
-
 const BannerSlide: React.FC<IProps> = ({ data }) => {
-    // const [data, setData] = useState([]);
-    const [showModal, setShowModal] = useState(false)
-    // console.log("The show modal is", showModal)
-
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         const result = await fetchBannerData();
-    //         setData(result);
-    //     }
-    //     fetchData();
-    // }, []);
-
+    const [showModal, setShowModal] = useState(false);
+    
     const handleShowModal = () => {
         setShowModal(!showModal)
     }
