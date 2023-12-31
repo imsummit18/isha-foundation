@@ -40,10 +40,10 @@ const BannerSlide: React.FC<IProps> = ({ data }) => {
                     const [firstPart, secondPart] = el?.subtext?.value?.document?.children[0].children[0].value.split('#');
 
                     return (
-                        <div key={index} className='w-full flex items-center h-screen bg-contain pl-[120px] pt-10' style={{ backgroundImage: `url(${el?.image?.url})` }}>
-                            <div className='flex items-center w-1/2'>
+                        <div key={index} className='w-full flex items-center  bg-cover pl-[120px] pt-10  ' style={{ backgroundImage: `url(${el?.image?.url})` }}>
+                            <div className='flex items-center w-1/2  py-[90px] '>
                                 <div>
-                                    <p className='text-[64px] text-[white] font-semibold'>{el?.title}</p>
+                                    <p className='text-[54px] text-[white] font-semibold'>{el?.title}</p>
                                     <p className='my-5 text-2xl text-white font-medium leading-[2]'>
                                         {firstPart}<br />
                                         <span className='text-[#fac654] text-4xl font-bold'>#{secondPart}</span>

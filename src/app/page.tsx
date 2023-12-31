@@ -10,6 +10,9 @@ import FreeTemple from '@/Components/FreeTemple/page';
 import HeartBreakingStories from '@/Components/HeartBreakingStories/page';
 import VideosSadhGuru from '@/Components/Videos/page';
 import Appeal from '@/Components/Appeal/page';
+import Glory from '@/Components/Glory/page';
+import Footer from '@/Components/Footer/page';
+import HRCE from '@/Components/HR&CE/page';
 
 const fetchBannerData = async () => {
   try {
@@ -48,7 +51,10 @@ export default function Home() {
         <FreeTemple />
         <HeartBreakingStories data={data?.body[3]} />
         <VideosSadhGuru data={data?.body[4]} />
-        <Appeal  data={data?.body[5]} />
+        <Appeal data={data?.body[5]} />
+        <Glory data={data?.body[7]} />
+        <HRCE data={""}/>
+        <Footer />
       </div>
     </>
   )
