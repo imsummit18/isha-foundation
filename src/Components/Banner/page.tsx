@@ -34,7 +34,7 @@ const BannerSlide: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div className='max-w-[1440px] w-full m-auto'>
+        <div className='max-w-[1440px] w-full m-auto z-2'>
             {
                 data?.map((el: any, index: any) => {
                     const [firstPart, secondPart] = el?.subtext?.value?.document?.children[0].children[0].value.split('#');
@@ -62,6 +62,8 @@ const BannerSlide: React.FC<IProps> = ({ data }) => {
             {
                 showModal &&
                 <Modal
+                    isVideo={true}
+                    className={""}
                     onClick={handleShowModal}
                     data={<iframe
                         width="100%"

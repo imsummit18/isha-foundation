@@ -7,22 +7,20 @@ interface IProps {
 
 
 const DyingTemples: React.FC<IProps> = ({ data }) => {
-    console.log("The data", data)
     const title = data.sectionContent[0].titleText
     const card = data.sectionContent[1].card
 
     return (
         <div className='max-w-[1440px] w-full m-auto px-[120px] bg-[#69310F] ' >
             <div className='text-[white] py-20 w-[60%]'>
-                <p className='text-3xl font-semibold ml-[180px]'>{title}</p>
+                <p className='text-4xl font-semibold ml-[180px]'>{title}</p>
                 <div>
 
                     {
                         card.map((el: any) => {
-                            console.log("The el", el)
                             return (
                                 <>
-                                    <div className='flex items-center justify-between  gap-8 my-10  ' >
+                                    <div className='flex items-center justify-between  gap-8 my-10 last:mb-0  ' >
                                         <div className=''>
                                             <Image src={el?.thumbnail.url} alt='' width={300} height={250} />
                                         </div>

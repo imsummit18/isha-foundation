@@ -33,7 +33,7 @@ const navData = [
 
 const Navbar = () => {
     return (
-        <div className="max-w-[1440px] w-full  m-auto bg-customBrown  flex items-center justify-between px-20 py-4 fixed top-0 left-0 right-0 ">
+        <div className="max-w-[1440px] w-full z-[10]  m-auto bg-customBrown  flex items-center justify-between px-20 py-4 fixed top-0 left-0 right-0 ">
             <div className=" flex  items-center space-x-4 text-sm  ">
                 {
                     navData.map((el) => (

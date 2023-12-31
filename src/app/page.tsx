@@ -6,6 +6,10 @@ import Description from '@/Components/Description/page'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import DyingTemples from '@/Components/DyingTemples/page';
+import FreeTemple from '@/Components/FreeTemple/page';
+import HeartBreakingStories from '@/Components/HeartBreakingStories/page';
+import VideosSadhGuru from '@/Components/Videos/page';
+import Appeal from '@/Components/Appeal/page';
 
 const fetchBannerData = async () => {
   try {
@@ -19,7 +23,7 @@ const fetchBannerData = async () => {
 export default function Home() {
   const [data, setData] = useState<any | null>([]);
   const [isLoading, setIsLoading] = useState(true)
-  console.log("The data is", data)
+  console.log("The a data is", data)
   const [showModal, setShowModal] = useState(false)
 
   useEffect(() => {
@@ -41,6 +45,10 @@ export default function Home() {
         <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
         <Description data={data?.body[1]} />
         <DyingTemples data={data?.body[2]} />
+        <FreeTemple />
+        <HeartBreakingStories data={data?.body[3]} />
+        <VideosSadhGuru data={data?.body[4]} />
+        <Appeal  data={data?.body[5]} />
       </div>
     </>
   )
