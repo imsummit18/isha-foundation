@@ -13,6 +13,7 @@ import Appeal from '@/Components/Appeal/page';
 import Glory from '@/Components/Glory/page';
 import Footer from '@/Components/Footer/page';
 import HRCE from '@/Components/HR&CE/page';
+import Card from '@/Components/Card/page';
 
 const fetchBannerData = async () => {
   try {
@@ -43,7 +44,7 @@ export default function Home() {
   }
   return (
     <>
-      <div className=' '>
+      <div className='relative'>
         <Navbar />
         <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
         <Description data={data?.body[1]} />
@@ -53,8 +54,11 @@ export default function Home() {
         <VideosSadhGuru data={data?.body[4]} />
         <Appeal data={data?.body[5]} />
         <Glory data={data?.body[7]} />
-        <HRCE data={""}/>
+        <HRCE data={data?.body[6]} />
         <Footer />
+        <div className='fixed right-0   bottom-0'>
+          <Card />
+        </div>
       </div>
     </>
   )

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { ImPlay2 } from "react-icons/im";
 import React, { useState } from 'react'
 import Modal from '../Modal/page';
+import Card from '../Card/page';
 interface IProps {
     data?: any
 }
@@ -17,21 +18,24 @@ const Description: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[120px] py-[50px]'>
-            <div className='w-[60%]'>
-                <p style={{ whiteSpace: 'pre-line' }} className='text-base'>
-                    {text}
-                </p>
+        <div className='  max-w-[1440px] w-full m-auto px-[120px] py-[50px]'>
+                <div className='w-[60%]'>
+                    <p style={{ whiteSpace: 'pre-line' }} className='text-base'>
+                        {text}
+                    </p>
 
-                {imageUrl && (
-                    <div className='mt-10 relative z-[2]'>
-                        <Image alt='Image' src={imageUrl} layout="responsive" width={500} height={300} />
-                        <div className='absolute top-[45%] left-[45%] cursor-pointer' onClick={handleShowModal}>
-                            <ImPlay2 size={80} color="white" />
+                    {imageUrl && (
+                        <div className='mt-10 relative z-[2]'>
+                            <Image alt='Image' src={imageUrl} layout="responsive" width={500} height={300} />
+                            <div className='absolute top-[45%] left-[45%] cursor-pointer' onClick={handleShowModal}>
+                                <ImPlay2 size={80} color="white" />
+                            </div>
                         </div>
-                    </div>
-                )}
+                    )}
+               
             </div>
+
+
             {
                 showModal &&
                 <Modal
