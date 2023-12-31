@@ -31,7 +31,7 @@ const TimelineItem = ({ el, index, timelines }: { el: any, index: number, timeli
 const HRCE: React.FC<IProps> = ({ data }) => {
     const timelines = data?.sectionContent[1].timelines;
     return (
-        <div className='max-w-[1440px] w-full m-auto px-5 sm:px-[120px] py-10 sm:py-20 '>
+        <div id="hrce" className='max-w-[1440px] w-full m-auto px-5 sm:px-[120px] py-10 sm:py-20 '>
             <div className='w-full sm:w-[60%]'>
                 <p className=' text-3xl sm:text-[48px] text-center font-bold leading-[1.5]'>{data?.sectionContent[0]?.titleText}</p>
                 <div className='mt-5'>

@@ -29,7 +29,10 @@ export default function Home() {
   const [data, setData] = useState<any | null>([]);
   const [isLoading, setIsLoading] = useState(true)
   console.log("The a data is", data)
+  const [showCard, setShowCard] = useState(false);
+
   const [showModal, setShowModal] = useState(false)
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,27 +43,32 @@ export default function Home() {
     fetchData();
   }, []);
   if (isLoading) {
-    return <div>Loading...</div>
+    return <div className='absolute top-[35%] left-[40%]'>
+
+      <img src={'/spinner.svg'} alt=""  />
+    </div>
 
   }
+
+
   return (
     <>
-      <div className='relative'>
+      <div >
         <Navbar />
         <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
-        <Description data={data?.body[1]} />
-        <DyingTemples data={data?.body[2]} />
-        <FreeTemple />
-        <HeartBreakingStories data={data?.body[3]} />
-        <VideosSadhGuru data={data?.body[4]} />
-        <Appeal data={data?.body[5]} />
-        <HRCE data={data?.body[6]} />
-        <Glory data={data?.body[7]} />
-        <Media />
-        <Footer />
-        {/* <div className='fixed right-0   bottom-0'>
-          <Card data={data?.body[8]} />
-        </div> */}
+        <div className='relative'>
+          <Description data={data?.body[1]} />
+          <DyingTemples data={data?.body[2]} />
+          <FreeTemple />
+          <HeartBreakingStories data={data?.body[3]} />
+          <VideosSadhGuru data={data?.body[4]} />
+          <Appeal data={data?.body[5]} />
+          <HRCE data={data?.body[6]} />
+          <Glory data={data?.body[7]} />
+          <Media />
+          <Footer />
+
+        </div>
       </div>
     </>
   )

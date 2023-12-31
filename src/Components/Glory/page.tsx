@@ -81,7 +81,7 @@ const Glory: React.FC<IProps> = ({ data }) => {
     };
 
     return (
-        <div className='max-w-[1440px] w-full m-auto px-5 pt-10 sm:px-[120px] sm:pt-20 ' style={{ backgroundImage: `url(https://static.consciousplanet.org/static/assets/img/bg-img.jpg)` }} >
+        <div id="glory" className='max-w-[1440px] w-full m-auto px-5 pt-10 sm:px-[120px] sm:pt-20 ' style={{ backgroundImage: `url(https://static.consciousplanet.org/static/assets/img/bg-img.jpg)` }} >
             <div className='w-full sm:w-[50%] text-[white] '  >
                 <div className='text-center'>
                     <p className='text-4xl font-semibold'>{data.sectionContent[0].titleText}</p>
@@ -91,7 +91,7 @@ const Glory: React.FC<IProps> = ({ data }) => {
                     <div className='  h-[300px] sm:h-[500px]  relative'>
                         {slides?.map((el: any, index: any) => (
                             <div
-                                className={`  transition-opacity duration-1000 absolute w-full opacity-0 ${slideIndex === index ? "opacity-100" : ""}`}
+                                key={index} className={`  transition-opacity duration-1000 absolute w-full opacity-0 ${slideIndex === index ? "opacity-100" : ""}`}
                             >
                                 <Image src={el?.image?.url} alt="slider-image" width={300} height={300} layout="responsive" />
                             </div>

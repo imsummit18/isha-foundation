@@ -22,7 +22,7 @@ const HeartBreakingStories: React.FC<IProps> = ({ data }) => {
     }
     return (
 
-        <div className='max-w-[1440px] w-full m-auto px-5 sm:px-[120px] py-10  sm:py-20  text-[white]' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
+        <div id="heartbreakingStories" className='max-w-[1440px] w-full m-auto px-5 sm:px-[120px] py-10  sm:py-20  text-[white]' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
             <div className='w-full sm:w-[60%]'>
                 <div className=' text-center'>
                     <p className='text-3xl sm:text-4xl font-bold mb-6 text-left  text-center sm:text-left'>{data?.sectionContent[0]?.titleText}</p>
@@ -74,7 +74,7 @@ const HeartBreakingStories: React.FC<IProps> = ({ data }) => {
                 showModal &&
                 <Modal
                     isVideo={false}
-                    className={"w-screen  sm:w-[600px] sm:min-h-[600px] h-fit bg-[white] text-[black]"}
+                    className={"w-screen  sm:w-[600px] h-[400px] sm:min-h-[600px] h-fit bg-[white] text-[black]"}
                     onClick={handleCloseModal}
                     data={modalData} />
             }

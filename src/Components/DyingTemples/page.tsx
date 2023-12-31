@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Card from '../Card/page'
 
 interface IProps {
     data?: any
@@ -11,7 +12,7 @@ const DyingTemples: React.FC<IProps> = ({ data }) => {
     const card = data.sectionContent[1].card
 
     return (
-        <div className='max-w-[1440px] w-full m-auto  px-[40px] sm:px-[120px] ' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
+        <div id="dyingtemple" className='max-w-[1440px] w-full m-auto  px-[40px] sm:px-[120px] flex space-x-10 items-center ' style={{ backgroundImage: 'url(https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o%20copy%202@2x.jpg)' }} >
             <div className='text-[white]  w-full py-10 sm:py-20 sm:w-[60%]'>
                 <p className=' text-xl text-center sm:text-4xl font-semibold sm:ml-[150px] sm:mb-10'>{title}</p>
                 <div>
@@ -35,6 +36,7 @@ const DyingTemples: React.FC<IProps> = ({ data }) => {
                     }
                 </div>
             </div>
+           
         </div>
     )
 }

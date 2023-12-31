@@ -33,7 +33,7 @@ const Media = () => {
     };
 
     return (
-        <div className='max-w-[1440px] w-full m-auto px-[20px] sm:px-[120px] py-5 sm:py-20' style={{ backgroundImage: `url(https://static.consciousplanet.org/static/assets/img/bg-2.jpg)` }}>
+        <div id="media" className='max-w-[1440px] w-full m-auto px-[20px] sm:px-[120px] py-5 sm:py-20' style={{ backgroundImage: `url(https://static.consciousplanet.org/static/assets/img/bg-2.jpg)` }}>
 
             <div className='w-full sm:w-[60%] '>
                 <div className="mt-8 w-full items-center overflow-hidden ">

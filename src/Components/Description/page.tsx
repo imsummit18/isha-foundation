@@ -18,8 +18,8 @@ const Description: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div className='  max-w-[1440px] w-full m-auto px-[120px] py-[50px]' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}>
-            <div className='w-[60%]'>
+        <div id="description" className=' relative  max-w-[1440px]  w-full m-auto px-5 sm:px-[120px]  py-8 sm:py-[50px] flex space-x-10 items-center' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}>
+            <div className='w-full sm:w-[60%]'>
                 <p style={{ whiteSpace: 'pre-line' }} className='text-base'>
                     {text}
                 </p>
@@ -34,13 +34,16 @@ const Description: React.FC<IProps> = ({ data }) => {
                 )}
 
             </div>
+            <div className='hidden sm:block '>
+                <Card />
+            </div>
 
 
             {
                 showModal &&
                 <Modal
                     isVideo={true}
-                    className={"w-[600px] h-[400px]"}
+                    className={"w-[350px] sm:w-[600px] sm:h-[400px]"}
                     onClick={handleShowModal}
                     data={<iframe
                         width="100%"
