@@ -39,7 +39,7 @@ const Media = () => {
                 <div className="mt-8 w-full items-center overflow-hidden ">
                     <div className=' h-[300px]  relative'>
                         {slides?.map((el: any, index: any) => (
-                            <div
+                            <div key={index}
                                 className={` bg-[white] rounded-[5px]  px-10 sm:px-20 py-8 transition-opacity duration-1000 absolute w-full opacity-0 ${slideIndex === index ? "opacity-100" : ""}`}
                             >
                                 <p className='text-xl sm:text-2xl text-[#035096] font-bold mb-2'>{el?.title}</p>
