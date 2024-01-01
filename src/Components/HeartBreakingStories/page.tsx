@@ -75,7 +75,7 @@ const HeartBreakingStories: React.FC<IProps> = ({ data }) => {
                 showModal &&
                 <Modal
                     isVideo={false}
-                    className={"w-screen  sm:w-[600px] h-[400px] sm:min-h-[600px] h-fit bg-[white] text-[black]"}
+                    className={"w-screen  sm:w-[600px] h-screen sm:min-h-[600px] sm:h-fit bg-[white] text-[black]"}
                     onClick={handleCloseModal}
                     data={modalData} />
             }
