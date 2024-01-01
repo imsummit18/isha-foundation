@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tweet = () => {
     return (
-        <div className='bg-[white] mb-2 w-[380px] overflow-x-auto sm:overflow-hidden sm:w-[480px] rounded-lg px-8 sm:p-4  sm:px-4 my-5 cursor-pointer'>
+        <div className='bg-[white] mb-2 w-[380px] overflow-x-auto sm:overflow-hidden sm:w-[480px] rounded-lg p-8 sm:p-4  sm:px-4 my-5 cursor-pointer'>
             <p className="font-medium leading-6 text-base text-[black]">
                 <span className='h-4 w-8 rounded-[50%] bg-[black] text-[white] mr-1 p-2'>S</span><span className="text-gray-500">@imsummit18</span>
             </p>
