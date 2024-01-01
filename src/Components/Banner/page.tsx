@@ -44,14 +44,14 @@ const BannerSlide: React.FC<IProps> = ({ data }) => {
                 showModal &&
                 <Modal
                     isVideo={true}
-                    className={""}
+                    className={"-ml-[2px] sm:ml-0   "}
                     onClick={handleShowModal}
                     data={<iframe
                         width="100%"
                         height="100%"
                         src="https://www.youtube.com/embed/DBPfKpZfTfs"
                         title=" Video "
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen>
                     </iframe>} />
             }

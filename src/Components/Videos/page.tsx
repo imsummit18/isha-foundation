@@ -25,35 +25,40 @@ const VideosSadhGuru: React.FC<IProps> = ({ data }) => {
                     {
                         data?.sectionContent[1].card.slice(0, itemsToShow).map((el: any, index: any) => {
                             return (
-                                <div key={index} className=' bg-[white]  rounded-xl flex   flex-col w-screen  sm:w-[40%]  sm:my-5 mt-10 last:mb-0  justify-between sm:justify-between sm:mr-14 h-fit' >
-                                    <div className='relative '>
-                                        <Image src={el?.thumbnail.url} alt='' width={300} height={250} className='rounded-b-none w-full' />
-                                        <div className='absolute top-[40%] left-[35%] cursor-pointer' onClick={handleShowModal}>
-                                            <ImPlay2 size={50} color="white" style={{ fontWeight: "bold" }} />
+
+                                <>
+
+                                    <div key={index} className=' bg-[white]  rounded-xl flex   flex-col w-screen  sm:w-[40%]  sm:my-5 mt-10 last:mb-0  justify-between sm:justify-between sm:mr-14 h-fit' >
+                                        <div className='relative '>
+                                            <Image src={el?.thumbnail.url} alt='' width={300} height={250} className='rounded-b-none w-full' />
+                                            <div className='absolute top-[40%] left-[35%] cursor-pointer' onClick={handleShowModal}>
+                                                <ImPlay2 size={50} color="white" style={{ fontWeight: "bold" }} />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className='bg-[white] w-fit text-base text-normal p-2' >
-                                        <p className=' mb-2'>{el?.shortText}</p>
-                                        <p className=''>{el?.description?.shortText}</p>
+                                        <div className='bg-[white] w-fit text-base text-normal p-2' >
+                                            <p className=' mb-2'>{el?.shortText}</p>
+                                            <p className=''>{el?.description?.shortText}</p>
+
+                                        </div>
+
 
                                     </div>
-
                                     {
                                         showModal &&
                                         <Modal
                                             isVideo={true}
-                                            className={" w-[400px] sm:w-[600px] h-[400px]"}
+                                            className={" -ml-[2px] sm:ml-0 w-[380px] sm:w-[600px] h-[400px]"}
                                             onClick={handleShowModal}
                                             data={<iframe
                                                 width="100%"
                                                 height="100%"
                                                 src={el?.linkUrl}
                                                 title=" Video "
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowFullScreen>
                                             </iframe>} />
                                     }
-                                </div>
+                                </>
                             )
                         })
                     }
