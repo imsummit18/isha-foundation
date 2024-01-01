@@ -51,7 +51,7 @@ export default function Main() {
         </div>
     }
 
-   
+
     return (
         <>
             {data?.body?.length > 0 &&
@@ -75,7 +75,7 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                    
+
                 </>
             }
 
@@ -83,4 +83,3 @@ export default function Main() {
     )
 }
 
-         

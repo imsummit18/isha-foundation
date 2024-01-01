@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import Devotee from '../Devotes/page';
 
 const mediaData = [
     {
@@ -37,7 +38,9 @@ const Media = () => {
         <div id="media" className='max-w-[1440px] w-full m-auto px-[20px] sm:px-[120px] py-5 sm:py-20' style={{ backgroundImage: `url(https://static.consciousplanet.org/static/assets/img/bg-2.jpg)` }}>
 
             <div className='w-full sm:w-[60%] '>
-                <div className="mt-8 w-full items-center overflow-hidden ">
+                <Devotee />
+                <div className="mt-14 w-full items-center overflow-hidden ">
+                    <p className='text-center text-3xl  mb-5 sm:mb-10 sm:text-4xl font-bold'>What Medias Says</p>
                     <div className=' h-[300px]  relative'>
                         {slides?.map((el: any, index: any) => (
                             <div key={index}
@@ -45,7 +48,7 @@ const Media = () => {
                             >
                                 <p className='text-xl sm:text-2xl text-[#035096] font-bold mb-2'>{el?.title}</p>
                                 <p className='text-sm mb-2 '>{el?.desc}</p>
-                                <button className='cursor-pointer  absolute right-5 text-[#cf4824]'>Continue</button>
+                                <a href="/news"><button className='cursor-pointer  absolute right-5 text-[#cf4824]'>Continue</button></a>
                             </div>
                         ))}
                         <div className="flex  justify-between ">
