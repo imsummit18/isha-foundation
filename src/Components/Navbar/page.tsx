@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link"
 import { useEffect, useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
 import { Link as ScrollLink } from 'react-scroll';
 
 const navData = [
@@ -44,9 +44,17 @@ const navData = [
 
 const Navbar = () => {
     const [showMobileNav, setShowMobileNav] = useState(false)
+    console.log("SHow mobile nav", showMobileNav)
     const handleShowMobileNav = () => {
         setShowMobileNav(!showMobileNav)
     }
+    useEffect(() => {
+        if (showMobileNav) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+    }, [showMobileNav]);
 
     return (
         <>
@@ -82,6 +90,29 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {showMobileNav && (
+                <div className="z-[20] pl-4 py-4 w-[80%] sm:hidden fixed top-0 left-0  shadow-2xl shadow-[black] bg-[white] text-[black] py-4 h-screen ">
+                    <div className="sm:hidden mb-5" onClick={handleShowMobileNav}>
+                        <RxCross2 size={24} color={"black"} />
+                    </div>
+                    {navData.map((el) => (
+                        <div key={el.id} className=" mt-2 flex  cursor-pointer text-[gray] font-normal font-semibold py-2  overflow-hidden">
+                            <ScrollLink
+                                to={el?.path.toString()}
+                                smooth={true}
+                                duration={1000}
+                                spy={true}
+                                offset={-68}
+                                activeClass="text-[#fac654]"
+                                onClick={() => setShowMobileNav(false)}
+                            >
+                                {el.title}
+                            </ScrollLink>
+                        </div>
+                    ))}
+
+                </div>
+            )}
         </>
     )
 }
