@@ -92,11 +92,11 @@ const Navbar = () => {
 
             {showMobileNav && (
                 <div className="z-[20] pl-4 py-4 w-[80%] sm:hidden fixed top-0 left-0  shadow-2xl shadow-[black] bg-[white] text-[black] py-4 h-screen ">
-                    <div className="sm:hidden mb-5" onClick={handleShowMobileNav}>
-                        <RxCross2 size={24} color={"black"} />
+                    <div className="sm:hidden mb-8" onClick={handleShowMobileNav}>
+                        <RxCross2 size={28} color={"black"} />
                     </div>
                     {navData.map((el) => (
-                        <div key={el.id} className=" mt-2 flex  cursor-pointer text-[gray] font-normal font-semibold py-2  overflow-hidden">
+                        <div key={el.id} className=" mt-4 flex  cursor-pointer text-[gray] font-normal font-semibold py-2  overflow-hidden">
                             <ScrollLink
                                 to={el?.path.toString()}
                                 smooth={true}
