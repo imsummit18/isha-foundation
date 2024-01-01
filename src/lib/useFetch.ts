@@ -1,24 +1,19 @@
-"use client";
-import { useState, useEffect } from "react";
-import axios from "axios";
 
-const useFetchData = (url: string) => {
-  const [data, setData] = useState<any | []>([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(url);
-        setData([response.data.allLandingPages[0]]);
-      } catch (err: any) {
-        console.log("Error while fetching data", err);
-        throw new Error("Error while fetching data", err);
-      }
-    };
-    fetchData();
-  }, [url]);
+// import axios from "axios";
 
-  return data;
-};
+// export const fetchData = async (url: string) => {
+//   console.log("hello there from fetchdata");
+//   try {
+//     const response = await axios.get(url);
+//     console.log(
+//       "data from use fetch",
+//       response?.data?.data?.allLandingPages[0]
+//     );
+//     return response?.data?.data?.allLandingPages[0];
+//   } catch (err: any) {
+//     console.log("Error while fetching data", err);
+//     throw new Error("Error while fetching data", err);
+//   }
+// };
 
-export default useFetchData;
