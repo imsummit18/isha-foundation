@@ -47,7 +47,7 @@ const VideosSadhGuru: React.FC<IProps> = ({ data }) => {
                                         showModal &&
                                         <Modal
                                             isVideo={true}
-                                            className={" -ml-[2px] sm:ml-0 w-[380px] sm:w-[600px] h-[400px]"}
+                                            className={" -ml-[2px] sm:ml-0 w-[340px] sm:w-[600px] h-[350px] sm:h-[400px]"}
                                             onClick={handleShowModal}
                                             data={<iframe
                                                 width="100%"
