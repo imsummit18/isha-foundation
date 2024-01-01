@@ -3,7 +3,7 @@ import Image from 'next/image'
 import BannerSlide from '@/Components/Banner/page'
 import Description from '@/Components/Description/page'
 import axios from 'axios'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import DyingTemples from '@/Components/DyingTemples/page';
 import FreeTemple from '@/Components/FreeTemple/page';
 import HeartBreakingStories from '@/Components/HeartBreakingStories/page';
@@ -19,6 +19,7 @@ import Navbar from '../Navbar/page';
 
 
 export default function Main() {
+
     const [data, setData] = useState<any>([]);
     const [isLoading, setIsLoading] = useState(false);
 
@@ -41,32 +42,45 @@ export default function Main() {
     }, []);
 
 
+
+
+
     if (isLoading) {
         return <div className='absolute top-[30%] left-[30%] sm:top-[35%] sm:left-[40%]'>
             <img src={'/spinner.svg'} alt="" />
         </div>
     }
 
-
+   
     return (
         <>
             {data?.body?.length > 0 &&
                 <>
-                    <Navbar />
-                    <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
-                    <Description data={data?.body[1]} />
-                    <DyingTemples data={data?.body[2]} />
-                    <FreeTemple />
-                    <HeartBreakingStories data={data?.body[3]} />
-                    <VideosSadhGuru data={data?.body[4]} />
-                    <Appeal data={data?.body[5]} />
-                    <HRCE data={data?.body[6]} />
-                    <Glory data={data?.body[7]} />
-                    <Media />
-                    <Footer />
+                    <div className='relative'>
+                        <Navbar />
+                        <BannerSlide data={data?.body[0].sectionContent[0].bannerSlides} />
+                        <div className='relative'>
+                            <Description data={data?.body[1]} />
+                            <DyingTemples data={data?.body[2]} />
+                            <FreeTemple />
+                            <HeartBreakingStories data={data?.body[3]} />
+                            <VideosSadhGuru data={data?.body[4]} />
+                            <Appeal data={data?.body[5]} />
+                            <HRCE data={data?.body[6]} />
+                            <Glory data={data?.body[7]} />
+                            <Media />
+                            <Footer />
+                            <div className='hidden sm:block fixed   top-[15%] right-12 2xl:right-[150px] 3xl:right-[270px] 4xl:right-[600px]' >
+                                <Card />
+                            </div>
+                        </div>
+                    </div>
+                    
                 </>
             }
 
         </>
     )
 }
+
+         

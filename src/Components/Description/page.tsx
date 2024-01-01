@@ -18,7 +18,7 @@ const Description: React.FC<IProps> = ({ data }) => {
         setShowModal(!showModal)
     }
     return (
-        <div>
+        <div className='relative'>
             <div id="description" className=' relative  max-w-[1440px]  w-full m-auto px-5 sm:px-[120px]  py-8 sm:py-[50px] flex space-x-10 items-center' style={{ backgroundImage: 'url(	https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg)' }}>
                 <div className='w-full sm:w-[60%]'>
                     <p style={{ whiteSpace: 'pre-line' }} className='text-base'>
@@ -35,9 +35,7 @@ const Description: React.FC<IProps> = ({ data }) => {
                     )}
 
                 </div>
-                <div className='hidden sm:block '>
-                    <Card />
-                </div>
+              
 
 
 
