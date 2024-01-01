@@ -48,7 +48,7 @@ const Media = () => {
                             >
                                 <p className='text-xl sm:text-2xl text-[#035096] font-bold mb-2'>{el?.title}</p>
                                 <p className='text-sm mb-2 '>{el?.desc}</p>
-                                <a href="/news"><button className='cursor-pointer  absolute right-5 text-[#cf4824]'>Continue</button></a>
+                                <a href="/"><button className='cursor-pointer  absolute right-5 text-[#cf4824]'>Continue</button></a>
                             </div>
                         ))}
                         <div className="flex  justify-between ">
