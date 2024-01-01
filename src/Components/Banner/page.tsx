@@ -21,7 +21,7 @@ const BannerSlide: React.FC<IProps> = ({ data }) => {
                     const [firstPart, secondPart] = el?.subtext?.value?.document?.children[0].children[0].value.split('#');
 
                     return (
-                        <div key={index} className='w-full flex items-center bg-cover  px-5 sm:pl-[120px] pt-8 sm:pt-10  ' style={{ backgroundImage: `url(${el?.image?.url})` }}>
+                        <div key={index} className='w-full flex items-center bg-cover  px-5 sm:pl-[120px] pt-14 sm:pt-10  ' style={{ backgroundImage: `url(${el?.image?.url})` }}>
                             <div className='flex flex-col-reverse  sm:flex-row items-center w-full sm:w-1/2  py-[90px] '>
                                 <div className='text-center sm:text-left mt-10 sm:mt-0'>
                                     <p className='text-4xl sm:text-[54px] text-[white] font-semibold leading-[1.1]'>{el?.title}</p>

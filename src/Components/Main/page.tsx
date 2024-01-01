@@ -42,7 +42,7 @@ export default function Main() {
 
 
     if (isLoading) {
-        return <div className='absolute top-[35%] left-[40%]'>
+        return <div className='absolute top-[30%] left-[30%] sm:top-[35%] sm:left-[40%]'>
             <img src={'/spinner.svg'} alt="" />
         </div>
     }
